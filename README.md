@@ -34,11 +34,17 @@ Built for the [iSUPPLY Hackathon Challenge].
 
 ## 📦 Architecture
 lib/
+
 ├── logic/services/ # Firebase & Local Notification setup
+
 ├── presentation/
+
 │ ├── provider/ # OrderStatusProvider (using Provider)
+
 │ ├── views/ # UI Screens (e.g., HomeView)
+
 │ └── widgets/ # Reusable UI components (e.g., CustomButton)
+
 
 
 ---
