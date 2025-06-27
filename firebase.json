@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "order-tracking-notificat-cf2c7",
+          "appId": "1:1061912393984:android:c5dbe1963b668c30eb5be5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "order-tracking-notificat-cf2c7",
+          "configurations": {
+            "android": "1:1061912393984:android:c5dbe1963b668c30eb5be5",
+            "ios": "1:1061912393984:ios:e929458592dc0906eb5be5",
+            "macos": "1:1061912393984:ios:e929458592dc0906eb5be5",
+            "web": "1:1061912393984:web:2acd3a62b24c0a03eb5be5",
+            "windows": "1:1061912393984:web:230e972b0e0f4609eb5be5"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
