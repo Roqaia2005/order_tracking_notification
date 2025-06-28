@@ -20,9 +20,11 @@ Built for the [iSUPPLY Hackathon Challenge].
 ---
 
 ## 📸 Screenshots
-![WhatsApp Image 2025-06-27 at 23 49 48_29b9d246](https://github.com/user-attachments/assets/ad486ca5-1af5-46f4-a637-bc75a191fdb9)
-![WhatsApp Image 2025-06-27 at 23 53 00_00be0abb](https://github.com/user-attachments/assets/9f8522ea-4b01-4657-b8f7-2b47b72fa443)
-![WhatsApp Image 2025-06-27 at 23 53 13_2c31695a](https://github.com/user-attachments/assets/e5a6a0ad-2602-4758-8e4d-f7cbee2af86e)
+![WhatsApp Image 2025-06-28 at 22 35 33_daf3e87e](https://github.com/user-attachments/assets/b23a176f-fa47-4584-bfbd-aa0a1ea4c44a)
+![WhatsApp Image 2025-06-28 at 22 35 33_8c721235](https://github.com/user-attachments/assets/e55d91f8-aeb6-4983-a3d0-af36fcec8d51)
+![WhatsApp Image 2025-06-28 at 22 35 33_9767409f](https://github.com/user-attachments/assets/c6e8249a-d51d-477e-851a-d998b17cd6e1)
+
+
 
 
 
