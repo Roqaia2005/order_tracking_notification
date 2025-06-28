@@ -80,6 +80,13 @@ lib/
 
 ---
 
+## 📱 Huawei Push Support
+
+Huawei Push Kit is **not integrated** in this version because identity verification (bank document) is required for Huawei Developer Account activation.
+
+The app is structured to allow easy future integration with HMS Push Kit.
+
+
 ## 📝 How to Run
 1. Clone this repo: git clone https://github.com/Roqaia2005/order_tracking_notification
 2. flutter pub get
