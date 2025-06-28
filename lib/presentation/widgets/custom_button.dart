@@ -11,20 +11,20 @@ class CustomButton extends StatelessWidget {
     required this.body,
     required this.buttonText,
     required this.newStatus,
+    this.icon,
   });
 
   final String body;
   final String buttonText;
   final String newStatus;
+  final IconData? icon;
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
+    return ElevatedButton.icon(
       onPressed: () {
-      
         context.read<OrderStatusProvider>().updateStatus(newStatus);
 
-      
         LocalNotificationService.showBasicNotification(
           RemoteMessage(
             notification: RemoteNotification(
@@ -37,11 +37,13 @@ class CustomButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         minimumSize: Size(double.infinity, 46.h),
         backgroundColor: const Color(0xff009FE2),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(30),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
       ),
-      child: Text(buttonText, style: const TextStyle(color: Color(0xffFAFBFA))),
+      icon:
+          icon != null
+              ? Icon(icon, color: const Color(0xffFAFBFA))
+              : const Icon(Icons.check, color: Color(0xffFAFBFA)),
+      label: Text(buttonText, style: const TextStyle(color: Color(0xffFAFBFA))),
     );
   }
 }

@@ -14,6 +14,8 @@ class FcmService {
     await firebaseMessaging.getToken().then(
       (value) => sendTokenToServer(value!),
     );
+    String token = await firebaseMessaging.getToken() ?? "No Token";
+    log(token);
 
     FirebaseMessaging.onBackgroundMessage(handleBackgroundMessage);
     handleForegroundMessage();

@@ -1,0 +1,14 @@
+{
+  "modules": [
+    {
+      "name": "app",
+      "path": "c:\\flutter2025\\order_tracking_notification\\android\\app\\",
+      "sources": [
+        "c:\\flutter2025\\order_tracking_notification\\android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java"
+      ],
+      "testSources": [],
+      "generatedSources": [],
+      "classpath": []
+    }
+  ]
+}
