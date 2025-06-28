@@ -80,6 +80,12 @@ lib/
 
 ---
 
+⚠️ iOS push notifications setup is completed (Firebase, plist, AppDelegate).
+
+However, due to the lack of a macOS environment, actual device testing could not be performed.
+
+
+
 ## 📱 Huawei Push Support
 
 Huawei Push Kit is **not integrated** in this version because identity verification (bank document) is required for Huawei Developer Account activation.
